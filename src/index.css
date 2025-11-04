@@ -1,0 +1,175 @@
+:root {
+  /* Dark Theme Color Palette */
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --primary-color: #373737;
+  --secondary-color: #242424;
+  --accent-color: #6200ee;
+  --border-color: #444;
+  --success-color: #2e7d32;
+}
+
+body {
+  font-family: "Delius", cursive, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+  /* Break word */
+  display: block;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* General section styling */
+.title-section,
+.path-selection-section,
+.favorites-section,
+.selection-controls-section,
+.results-section {
+  border: 1px solid var(--border-color);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  background-color: var(--primary-color);
+}
+
+/* Title section */
+.title-section {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 1.5rem;
+}
+
+/* Path selection section */
+.path-selection-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#favoritePathsList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+
+#favoritePathsList li span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+/* Selection controls section */
+.selection-controls-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Results section */
+.results-section {
+  background-color: var(--success-color);
+}
+
+/* Filter chips */
+#filter-chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.filter-chip {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filter-chip.active {
+  background-color: var(--accent-color);
+  font-weight: bold;
+}
+
+/* Collapse button */
+.collapse-button {
+  background-color: transparent;
+  border: none;
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0 0.75rem;
+}
+
+.collapsable-section h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.collapsable-content {
+  margin-top: 1rem;
+}
+
+.collapsable-content.collapsed {
+  display: none;
+}
+
+/* Input and button styling */
+input,
+button {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 0.75rem;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* Selected files list styling */
+#selectedFilesList li {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.media-preview {
+  flex-shrink: 0;
+}
+
+.file-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.open-file-button {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.9rem;
+}
