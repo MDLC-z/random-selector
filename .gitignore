@@ -36,7 +36,12 @@ build/Release
 node_modules/
 jspm_packages/
 
-# TypeScript v1 declaration files
+# Electron Builder output
+dist/
+build/
+
+# npm lockfile
+package-lock.json
 typings/
 
 # TypeScript cache
@@ -90,3 +95,4 @@ typings/
 
 # Electron-Forge
 out/
+forge.config.js
