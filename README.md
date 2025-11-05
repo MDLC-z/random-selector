@@ -31,7 +31,7 @@ A simple desktop application built with Electron to select random files from a f
 
 ### Option 1 – Download Portable Build
 
-Go to the [Releases](https://github.com/MDLC-z/Comm-Tool-Manager/releases) page and download the **Portable `.exe`** version.  
+Go to the [Releases](https://github.com/MDLC-z/random-selector/releases) page and download the **Portable `.exe`** version.  
 No installation required! Just download and run the executable.
 
 ### Option 2 – Download Setup Build
@@ -49,4 +49,4 @@ npm start
 
 ## Author
 
-Random selector was created by [@MDLC-z](https://github.com/MDLC-z)
+Random selector! was created by [@MDLC-z](https://github.com/MDLC-z)
