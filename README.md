@@ -20,12 +20,10 @@ A simple desktop application built with Electron to select random files from a f
 
 ## 🛠️ Built With
 
-- **[Node.js](https://nodejs.org/en/):** Runtime environment for JavaScript.
-- **[Electron](https://www.electronjs.org/):** Framework for creating native applications with web technologies like JavaScript, HTML, and CSS.
-- **[Vite](https://vitejs.dev/):** Build tool that aims to provide a faster and leaner development experience for modern web projects.
-- **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript):** The programming language used for the application logic.
-- **[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML):** The markup language for the application's user interface.
-- **[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS):** The styling language for the application's user interface.
+- [Electron](https://www.electronjs.org/)
+- [Node.js](https://nodejs.org/en/)
+- [Vite](https://vitejs.dev/)
+- HTML, CSS, and JavaScript
 
 ---
 
